@@ -1,13 +1,10 @@
-/* (A) SCORE SHEET & SUBJECTS
-var scores = {
+/* var scores = {
   Distinction: 5,
   A: 4, B: 3, C: 2, D: 1, F: 0
 };
 var subjects = [
-  "Subject A", "Subject B", "Subject C", "Subject D"
+  "Science", "Math", "Social Studies", "English"
 ];
-
-// (B) DRAW HTML
 window.addEventListener("load", () => {
   // (B1) GET HTML ELEMENTS
   let wrapper = document.getElementById("gpa-wrap"),
